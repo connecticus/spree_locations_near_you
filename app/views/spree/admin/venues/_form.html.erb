@@ -1,56 +1,56 @@
 <div class="row">
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :name %>
-      <%= f.text_field :name, class: " title form-control  form-control " %>
+      <%= f.label Spree.t(:vname)  %>
+      <%= f.text_field :name, class: " title form-control" %>
       <%= f.error_message_on :name %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :venue_hours %>
+      <%= f.label Spree.t(:vhours) %>
       <%= f.text_field :venue_hours, class: " title form-control " %>
       <%= f.error_message_on :venue_hours %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :store_code %>
+      <%= f.label Spree.t(:store_code) %>
       <%= f.text_field :store_code, class: " title form-control " %>
       <%= f.error_message_on :store_code %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :phone %>
+      <%= f.label Spree.t(:vphone) %>
       <%= f.text_field :phone, class: "form-control" %>
       <%= f.error_message_on :phone %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :website %>
+      <%= f.label Spree.t(:vsite) %>
       <%= f.text_field :website, class: " title form-control " %>
       <%= f.error_message_on :website %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :street_address %>
+      <%= f.label Spree.t(:vaddres) %>
       <%= f.text_field :street_address, class: "form-control" %>
       <%= f.error_message_on :street_address %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :city %>
+      <%= f.label Spree.t(:vcity_part) %>
       <%= f.text_field :city, class: " title form-control " %>
       <%= f.error_message_on :city %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :country %>
+      <%= f.label Spree.t(:vcountry) %>
       <%= f.text_field :country, class: " title form-control " %>
       <%= f.error_message_on :country %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :state %>
+      <%= f.label Spree.t(:vstate) %>
       <%= f.text_field :state, class: " title form-control " %>
       <%= f.error_message_on :state %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :zip %>
+      <%= f.label Spree.t(:vzip) %>
       <%= f.text_field :zip, class: " title form-control " %>
       <%= f.error_message_on :zip %>
   <% end %>
   <%= f.field_container :name, class: ['form-group'] do %>
-      <%= f.label :hidden %>
+      <%= f.label Spree.t(:vhidden) %>
       <%= f.check_box :hidden, class: " title form-control " %>
       <%= f.error_message_on :hidden %>
   <% end %>

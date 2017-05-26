@@ -1,0 +1,29 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ru:
+  spree:
+      venue: Точка продаж
+      venues:  Точки продаж
+      error: Ошибка.
+      new_venue: Новая
+      not_found_venue: Не найдено
+      search: Искать
+      back_venue: Назад
+      vname: Название
+      vaddres: Адрес
+      vphone: Телефон
+      vhours: Часы работы
+      vsite: Вебсайт
+      store_code: Геокод
+      vcity_part: Район
+      vcountry: Страна
+      vstate: Область
+      vzip: Индекс
+      vhidden: Скрыть?
+      success:
+            created_venue: Точка создана.
+            updated_venue: Точка обновлена.
+            deleted_venue: Точка удалена.
+
+

@@ -1,14 +1,14 @@
 <table id="venues" class="table">
   <thead>
-    <tr>
-      <th>Name</th>
-      <th>Full Address</th>
-      <th>Phone #</th>
-      <th>Hours</th>
-      <th>Website</th>
-    </tr>
+  <tr>
+    <th><%= Spree.t(:vname) %></th>
+    <th><%= Spree.t(:vaddres) %></th>
+    <th><%= Spree.t(:vphone) %></th>
+    <th><%= Spree.t(:vhours) %></th>
+    <th><%= Spree.t(:vsite) %></th>
+  </tr>
   </thead>
   <tbody>
-    <%= render partial: 'venue', locals: { venues: @venues } %>
+  <%= render partial: 'venue', locals: {venues: @venues} %>
   </tbody>
 </table>
